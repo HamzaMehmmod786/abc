@@ -1,0 +1,76 @@
+body{background-color: purple;height: 2000px;}
+
+
+.city ul{
+	width: 100%;
+}
+
+.city a{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+p{
+	margin-left: 160px;
+}
+
+p .one{ color: white; font-size: 25px; font-weight: bolder; text-decoration: none; margin: 20px; background-color: green; }
+p .two{ color: white; font-size: 25px; font-weight: bolder; text-decoration: none;  margin: 20px; background-color: black;}
+p .three{ color: white; font-size: 25px; font-weight: bolder; text-decoration: none;  margin: 20px; background-color: grey;}
+p .four{ color: white; font-size: 25px; font-weight: bolder; text-decoration: none;  margin: 20px; background-color: blue;}
+h1{margin-left: 435px;}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	background: #c71;
+	width: 150px;
+	float: left;
+	border: 1px solid white;
+	height: 50px;
+	text-align: center; 
+	line-height: 50px;
+
+	position: relative;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul li:hover{
+	background-color: green;
+}
+
+ul ul li:hover{
+	background-color: black;
+}
+
+ul ul ul li:hover{
+	background-color: gray;
+}
+
+ul ul ul ul li:hover{
+	background-color: blue;
+}
+
+ul ul{
+	display: none;
+}
+
+ul li:hover > ul{
+	display: block;
+}
+
+ul ul ul{
+	display: none;
+	margin-left: 150px;
+	position: absolute;
+	top: 0;
+}
